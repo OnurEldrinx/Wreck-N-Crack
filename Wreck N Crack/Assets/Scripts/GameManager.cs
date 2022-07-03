@@ -15,7 +15,7 @@ public class GameManager : Singleton<GameManager>
 
         UIManager.Instance.levelNoText.text = "LEVEL " + (PlayerPrefs.GetInt("LevelNo") + 1);
 
-        Application.targetFrameRate = 60;
+        //Application.targetFrameRate = 60;
 
     }
 
