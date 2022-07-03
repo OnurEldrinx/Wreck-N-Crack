@@ -985,6 +985,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1709268351}
+    - target: {fileID: 9040140816659056368, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040140816659056368, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9040140816659056370, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1072,6 +1080,22 @@ PrefabInstance:
     - target: {fileID: 9040140816659056374, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040140816810806937, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040140816909335716, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040140816909335716, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_fontSize
+      value: 72
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040140816909335716, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9040140817071417110, guid: 47017f9b4be3c094eaa1164df1665725, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

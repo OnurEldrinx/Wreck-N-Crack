@@ -3800,6 +3800,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Restart
       objectReference: {fileID: 0}
+    - target: {fileID: 7248779236414680501, guid: 361d6856f94efad41bbd30250aea7b16, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7248779236509360008, guid: 361d6856f94efad41bbd30250aea7b16, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 320
+      objectReference: {fileID: 0}
     - target: {fileID: 7248779237047579378, guid: 361d6856f94efad41bbd30250aea7b16, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
