@@ -44,6 +44,7 @@ public class GameManager : Singleton<GameManager>
     public void NextLevel()
     {
 
+        LevelManager.Instance.cubes.SetActive(false);
         LevelManager.Instance.levelNo++;
         PlayerPrefs.SetInt("LevelNo", LevelManager.Instance.levelNo);
         PlayerPrefs.Save();
@@ -68,6 +69,7 @@ public class GameManager : Singleton<GameManager>
     public void Restart()
     {
 
+        LevelManager.Instance.cubes.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
